@@ -68,3 +68,11 @@ Se ejecutará el programa y generará las gráficas de forma autómatica, debe g
 El script pide que nombres la tabla .txt con la información importante, se recomienda nombrarla así: 
 20240701_tabla_deriva_503
 
+Cualquier duda consultar al grupo:
+- Daniela Martinez
+- Alejandro Tabares
+
+
+# Autor
+- Alejandro Tabares Duque alejandro.tabares@igac.gov.co
+
