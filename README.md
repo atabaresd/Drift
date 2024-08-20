@@ -10,7 +10,7 @@ Rutina creada con el fin de realizar un control diario de la deriva entre dos es
 # PROCESO DE INSTALACIÓN
 
 Python Versión 3.1 o superior (SE RECOMIENDA CREAR UNA INCIDENCIA PARA QUE INSTALEN PYTHON DESDE TIC) 
-```bash
+
 Obtener Python para Windows directamente desde el sitio web oficial de Python. Sigue estos pasos: 
  
 1. Ve al sitio web de Python: python.org. 
@@ -22,18 +22,16 @@ Obtener Python para Windows directamente desde el sitio web oficial de Python. S
 7. Verifica la instalación abriendo la ventana de comandos (CMD) y escribiendo python --version. 
   
 Después de completar la instalación, podrás usar Python en tu sistema Windows.
-```
 
 INSTALAR O ACTUALIZAR EL ATAJO “pip” 
-```bash
 Abrir comando cmd en Windows y agregar el siguiente comando: 
+```bash
 Pyhton.exe -m pip install --upgrade pip
 ```
 
 INSTALAR LIBRERIAS 
-```bash
 Abrir comando cmd en Windows e instalar una por una las siguientes librerias: 
-
+```bash
 pip install pandas 
 pip install matplotlib 
 pip install scikit-learn 
@@ -41,19 +39,20 @@ Pip install openpyxl
 ```
 
 SELECCIÓN DATOS PROGRAMA EXCEL 
-```bash
+
 Debe tenerse el programa realizado en excel elaborado por Daniela Martinez llamado “Seleccion_Datos_Grav_Deriva.xlsm” en la ruta específica: C:\Users\daniela.martinez\OneDrive - IGAC\Documentos\Deriva\Datos 
 
 El uso del excel es el mismo específicado en el anterior manual de instrcciones. 
 
 Nota: Revisar que al cargar los archivos .DAT y al ejecutar el Excel la información que se va a calcular (cálculo de la deriva) quede grabado en la hoja “Promedios”.
-```
 
 EJECUTAR EL SCRIPT 
-```bash
-1. Ir a la carpeta donde se encuentra el archivo .py y sobre la barra de direcciones escribir ‘cmd’ y dar enter. 
-2. Ejecutar el programa en la ventana que se abre de cmd así: ‘python Drift.py’ 
 
+1. Ir a la carpeta donde se encuentra el archivo .py y sobre la barra de direcciones escribir ‘cmd’ y dar enter. 
+2. Ejecutar el programa en la ventana que se abre de cmd así:
+```bash
+python Drift.py
+```
 Se ejecutará el programa y generará las gráficas de forma autómatica, debe guardarse cada una en la ruta que se requiera y agregar un nombre que caracterice esa información. Se recomienda nombrarla así: 
 20240701_deriva_503 
 20240701_regresion_503 
@@ -61,4 +60,4 @@ Se ejecutará el programa y generará las gráficas de forma autómatica, debe g
 
 El script pide que nombres la tabla .txt con la información importante, se recomienda nombrarla así: 
 20240701_tabla_deriva_503
-```
+
