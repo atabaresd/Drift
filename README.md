@@ -7,6 +7,13 @@ Rutina creada con el fin de realizar un control diario de la deriva entre dos es
 2. Gráfica de la diferencia de gravedad de las estaciones vs la diferencia del tiempo
 3. Archivo de texto con la información que se utilizó para el procesamiento, cálculo y gráficos.
 
+# ARCHIVOS
+
+Dentro de este repositorio se tienen tres archivos:
+1. Archivo excel con extensión .xlsm llamado "Seleccion_Datos_Grav_Deriva" el cual fue elaborado por Daniela Martinez y está diseñado para realizar la selección y el procesmiento de los datos crudos.
+2. Archivo .py con el script ejecutable. Este es el archivo que se debe descargar.
+3. Archivo .ipynb que es un archivo Notebook el cual se usa para visualizar de manera simple del código y su funcionamiento.
+
 # PROCESO DE INSTALACIÓN
 
 Python Versión 3.1 o superior (SE RECOMIENDA CREAR UNA INCIDENCIA PARA QUE INSTALEN PYTHON DESDE TIC) 
